@@ -71,7 +71,7 @@ void draw () {
 
     textSize(20);
     fill(0, 120, 200);
-    if (frameCount > 1500 && frameCount < 5000) {
+    if (frameCount > 1500 || frameCount > 1500) {
     text("  Luke Skywalker          MARK HAMILL\n  Han Solo                      HARRISON FORD\n  Princess Leia              CARRIE FISHER\n  R2 - D2                        KENNY BAKER\n  Moff Jerjerrod             MICHAEL PENNIGTON\n  Admiral Piett              KENNETH COLLER\n  Bif Fortuna                  MICHAEL CARTER\n  Wedge                         DENIS LAWSON\n  Admiral Ackbar          TIM ROSE", 0, py);
     py --;
     }
