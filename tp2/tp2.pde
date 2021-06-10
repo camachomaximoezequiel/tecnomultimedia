@@ -33,7 +33,7 @@ void textFade() {
 }
   
 void draw () {
-    println (frameCount);
+    println (mouseX);
     image(fondo, 0,0, width, height);
     textFade();
     textFont (fuente);
